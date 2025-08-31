@@ -1,0 +1,73 @@
+
+{
+    "header": {
+        "generator": "Generator",
+        "about": "Über"
+    },
+    "generator": {
+        "title": "Konfiguration",
+        "description": "Sagen Sie uns, was Sie brauchen.",
+        "budget": "Budget",
+        "usage": "Hauptverwendung",
+        "usage_options": {
+            "gaming": "Gaming",
+            "streaming": "Gaming + Streaming",
+            "workstation": "Workstation (Videobearbeitung, 3D-Rendering)"
+        },
+        "resolution": "Zielauflösung",
+        "resolution_options": {
+            "p1080": "1080p (Full HD)",
+            "p1440": "1440p (QHD / 2K)",
+            "p4k": "4K (UHD)"
+        },
+        "platform": "Plattform",
+        "platform_options": {
+            "auto": "Auto (Empfohlen)",
+            "amd": "AMD (AM5)",
+            "intel": "Intel (LGA1700)"
+        },
+        "button_generate": "Build generieren",
+        "button_generating": "Generiere...",
+        "loading_title": "KI denkt nach...",
+        "loading_subtitle": "Bitte warten Sie einen Moment.",
+        "error_title": "Generierung fehlgeschlagen",
+        "error_button_retry": "Erneut versuchen",
+        "placeholder_title": "Ihr KI-generierter PC-Build wird hier angezeigt",
+        "placeholder_subtitle": "Passen Sie die Optionen links an und klicken Sie auf \"Build generieren\".",
+        "result_title": "Generierter Build",
+        "result_description": "Hier ist die von unserer KI empfohlene Konfiguration.",
+        "result_button_regenerate": "Neu generieren",
+        "result_button_copy": "Kopieren",
+        "result_button_copied": "Kopiert!",
+        "result_total_price": "Gesamtpreis",
+        "result_total_wattage": "Geschätzte Leistung",
+        "view_on_amazon": "Auf Amazon ansehen",
+        "copy_success": "PC-Build-Konfiguration in die Zwischenablage kopiert!"
+    },
+    "components": {
+        "cpu": "CPU (Prozessor)",
+        "gpu": "GPU (Grafikkarte)",
+        "motherboard": "Motherboard",
+        "ram": "RAM (Arbeitsspeicher)",
+        "ssd": "SSD-Speicher",
+        "psu": "Netzteil",
+        "case": "Gehäuse",
+        "cooler": "Kühler"
+    },
+    "about": {
+        "title": "Über den PC Config Generator",
+        "subtitle": "Ein KI-gestütztes Werkzeug, um Ihren PC-Bau zu vereinfachen.",
+        "what_is_it_title": "Was ist das?",
+        "what_is_it_p1": "Der PC Config Generator nutzt die Leistung von Googles Gemini KI, um personalisierte Computer-Build-Empfehlungen zu geben. Anstatt Stunden mit der Recherche von Komponentenkompatibilität und Leistungsbenchmarks zu verbringen, erhalten Sie in Sekundenschnelle eine ausgewogene, gut recherchierte Teileliste.",
+        "what_is_it_p2": "Geben Sie einfach Ihr Budget, den Verwendungszweck, die Zielauflösung und eventuelle Plattformpräferenzen ein und lassen Sie die KI die schwere Arbeit machen.",
+        "how_it_works_title": "Wie es funktioniert",
+        "how_it_works_p1": "Wenn Sie auf \"Build generieren\" klicken, sendet die Anwendung Ihre Präferenzen mit einer sorgfältig ausgearbeiteten Anweisung an die Gemini-API. Diese Anweisung beauftragt die KI, als PC-Bauexperte zu agieren und eine Liste kompatibler Komponenten zurückzugeben, die Ihren Kriterien entsprechen.",
+        "how_it_works_p2": "Um die Zuverlässigkeit zu gewährleisten, wird die KI gebeten, ihre Antwort als spezifisches JSON-Objekt zu formatieren. Diese strukturierten Daten werden dann geparst und ordentlich in den Komponentenkarten angezeigt, die Sie auf der Generator-Seite sehen.",
+        "stack_title": "Technologie-Stack",
+        "stack_fe_label": "Frontend",
+        "stack_styling_label": "Styling",
+        "stack_ai_label": "KI-Modell",
+        "stack_routing_label": "Routing",
+        "disclaimer": "Haftungsausschluss: Preise und Komponentenverfügbarkeit sind Schätzungen der KI und möglicherweise nicht zu 100 % korrekt. Überprüfen Sie immer die Preise und die Kompatibilität vor dem Kauf."
+    }
+}

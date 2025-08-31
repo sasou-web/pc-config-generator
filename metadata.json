@@ -1,0 +1,5 @@
+{
+  "name": "PC Config Generator",
+  "description": "An AI-powered application to generate custom PC build configurations based on user's budget, usage, target resolution, and preferred platform. It provides a detailed component list with estimated prices and total wattage.",
+  "requestFramePermissions": []
+}

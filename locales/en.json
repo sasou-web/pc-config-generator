@@ -1,0 +1,73 @@
+
+{
+    "header": {
+        "generator": "Generator",
+        "about": "About"
+    },
+    "generator": {
+        "title": "Configuration",
+        "description": "Tell us what you need.",
+        "budget": "Budget",
+        "usage": "Primary Usage",
+        "usage_options": {
+            "gaming": "Gaming",
+            "streaming": "Gaming + Streaming",
+            "workstation": "Workstation (Video Editing, 3D Rendering)"
+        },
+        "resolution": "Target Resolution",
+        "resolution_options": {
+            "p1080": "1080p (Full HD)",
+            "p1440": "1440p (QHD / 2K)",
+            "p4k": "4K (UHD)"
+        },
+        "platform": "Platform",
+        "platform_options": {
+            "auto": "Auto (Recommended)",
+            "amd": "AMD (AM5)",
+            "intel": "Intel (LGA1700)"
+        },
+        "button_generate": "Generate Build",
+        "button_generating": "Generating...",
+        "loading_title": "AI is thinking...",
+        "loading_subtitle": "Please wait a moment.",
+        "error_title": "Generation Failed",
+        "error_button_retry": "Try Again",
+        "placeholder_title": "Your AI-generated PC build will appear here",
+        "placeholder_subtitle": "Adjust the options on the left and click \"Generate Build\".",
+        "result_title": "Generated Build",
+        "result_description": "Here is the configuration recommended by our AI.",
+        "result_button_regenerate": "Regenerate",
+        "result_button_copy": "Copy",
+        "result_button_copied": "Copied!",
+        "result_total_price": "Total Price",
+        "result_total_wattage": "Estimated Wattage",
+        "view_on_amazon": "View on Amazon",
+        "copy_success": "PC build configuration copied to clipboard!"
+    },
+    "components": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "motherboard": "Motherboard",
+        "ram": "RAM",
+        "ssd": "SSD",
+        "psu": "Power Supply",
+        "case": "Case",
+        "cooler": "Cooler"
+    },
+    "about": {
+        "title": "About PC Config Generator",
+        "subtitle": "An AI-powered tool to simplify your PC building journey.",
+        "what_is_it_title": "What is this?",
+        "what_is_it_p1": "PC Config Generator leverages the power of Google's Gemini AI to provide personalized computer build recommendations. Instead of spending hours researching component compatibility and performance benchmarks, you can get a balanced, well-researched parts list in seconds.",
+        "what_is_it_p2": "Simply input your budget, intended use-case, target resolution, and any platform preference, and let the AI do the heavy lifting.",
+        "how_it_works_title": "How It Works",
+        "how_it_works_p1": "When you click \"Generate Build\", the application sends your preferences to the Gemini API with a carefully crafted prompt. This prompt instructs the AI to act as a PC building expert and return a list of compatible components that fit your criteria.",
+        "how_it_works_p2": "To ensure reliability, the AI is asked to format its response as a specific JSON object. This structured data is then parsed and displayed neatly in the component cards you see on the generator page.",
+        "stack_title": "Tech Stack",
+        "stack_fe_label": "Frontend",
+        "stack_styling_label": "Styling",
+        "stack_ai_label": "AI Model",
+        "stack_routing_label": "Routing",
+        "disclaimer": "Disclaimer: Prices and component availability are estimates provided by the AI and may not be 100% accurate. Always double-check prices and compatibility before purchasing."
+    }
+}

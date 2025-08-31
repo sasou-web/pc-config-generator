@@ -1,0 +1,73 @@
+
+{
+    "header": {
+        "generator": "Générateur",
+        "about": "À propos"
+    },
+    "generator": {
+        "title": "Configuration",
+        "description": "Dites-nous ce dont vous avez besoin.",
+        "budget": "Budget",
+        "usage": "Usage principal",
+        "usage_options": {
+            "gaming": "Jeu",
+            "streaming": "Jeu + Streaming",
+            "workstation": "Station de travail (Montage Vidéo, Rendu 3D)"
+        },
+        "resolution": "Résolution Cible",
+        "resolution_options": {
+            "p1080": "1080p (Full HD)",
+            "p1440": "1440p (QHD / 2K)",
+            "p4k": "4K (UHD)"
+        },
+        "platform": "Plateforme",
+        "platform_options": {
+            "auto": "Auto (Recommandé)",
+            "amd": "AMD (AM5)",
+            "intel": "Intel (LGA1700)"
+        },
+        "button_generate": "Générer la configuration",
+        "button_generating": "Génération...",
+        "loading_title": "L'IA réfléchit...",
+        "loading_subtitle": "Veuillez patienter un instant.",
+        "error_title": "La génération a échoué",
+        "error_button_retry": "Réessayer",
+        "placeholder_title": "Votre configuration PC générée par l'IA apparaîtra ici",
+        "placeholder_subtitle": "Ajustez les options à gauche et cliquez sur \"Générer la configuration\".",
+        "result_title": "Configuration Générée",
+        "result_description": "Voici la configuration recommandée par notre IA.",
+        "result_button_regenerate": "Régénérer",
+        "result_button_copy": "Copier",
+        "result_button_copied": "Copié !",
+        "result_total_price": "Prix Total",
+        "result_total_wattage": "Puissance Estimée",
+        "view_on_amazon": "Voir sur Amazon",
+        "copy_success": "Configuration PC copiée dans le presse-papiers !"
+    },
+    "components": {
+        "cpu": "Processeur (CPU)",
+        "gpu": "Carte Graphique (GPU)",
+        "motherboard": "Carte Mère",
+        "ram": "Mémoire RAM",
+        "ssd": "Stockage SSD",
+        "psu": "Alimentation",
+        "case": "Boîtier",
+        "cooler": "Refroidisseur"
+    },
+    "about": {
+        "title": "À propos de PC Config Generator",
+        "subtitle": "Un outil basé sur l'IA pour simplifier la création de votre PC.",
+        "what_is_it_title": "Qu'est-ce que c'est ?",
+        "what_is_it_p1": "PC Config Generator exploite la puissance de l'IA Gemini de Google pour fournir des recommandations de configurations d'ordinateur personnalisées. Au lieu de passer des heures à rechercher la compatibilité des composants et les benchmarks de performance, vous pouvez obtenir une liste de pièces équilibrée et bien documentée en quelques secondes.",
+        "what_is_it_p2": "Entrez simplement votre budget, votre cas d'utilisation, la résolution cible et toute préférence de plateforme, et laissez l'IA faire le gros du travail.",
+        "how_it_works_title": "Comment ça marche",
+        "how_it_works_p1": "Lorsque vous cliquez sur \"Générer la configuration\", l'application envoie vos préférences à l'API Gemini avec une instruction soigneusement élaborée. Cette instruction demande à l'IA d'agir en tant qu'experte en montage de PC et de renvoyer une liste de composants compatibles qui correspondent à vos critères.",
+        "how_it_works_p2": "Pour garantir la fiabilité, il est demandé à l'IA de formater sa réponse en un objet JSON spécifique. Ces données structurées sont ensuite analysées et affichées proprement dans les cartes de composants que vous voyez sur la page du générateur.",
+        "stack_title": "Stack Technique",
+        "stack_fe_label": "Frontend",
+        "stack_styling_label": "Style",
+        "stack_ai_label": "Modèle d'IA",
+        "stack_routing_label": "Routage",
+        "disclaimer": "Avertissement : Les prix et la disponibilité des composants sont des estimations fournies par l'IA et peuvent ne pas être 100 % exacts. Vérifiez toujours les prix et la compatibilité avant d'acheter."
+    }
+}
