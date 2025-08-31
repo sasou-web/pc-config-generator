@@ -1,5 +1,6 @@
 {
   "name": "pc-config-generator",
+  "homepage":"https://sasou-web.github.io/pc-config-generator/"
   "private": true,
   "version": "0.0.0",
   "type": "module",
